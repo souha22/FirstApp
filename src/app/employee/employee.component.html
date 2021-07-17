@@ -1,0 +1,58 @@
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<div >
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      <img routerLink="/Page_admin" class="icon" src="assets/image/logo1.png" width="50" >
+
+<form class="navbar-form navbar-left" action="/action_page.php">
+</form>
+<a routerLink="/login"></a><p text-align="center"><b>Welcome Admin</b></p>
+</div>
+
+</nav>
+</div>
+
+<div class="emp-form">
+    <div class="row">
+      <div class="col-md-4 form-group">
+        <input placeholder="First Name" class="form-control" [(ngModel)]="employeeService.currentEmployee.firstName">
+      </div>
+      <div class="col-md-4 form-group">
+        <input placeholder="Last Name" class="form-control" [(ngModel)]="employeeService.currentEmployee.lastName">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 form-group">
+        <input placeholder="Designation" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 form-group">
+        <input placeholder="Contact" class="form-control" [(ngModel)]="employeeService.currentEmployee.contact">
+      </div>
+      <div class="col-md-4 form-group">
+        <input placeholder="Address" class="form-control" [(ngModel)]="employeeService.currentEmployee.address">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <button class="btn  btn-lg btn-block" (click)="createOrUpdateEmployee(employeeService.currentEmployee)">
+          <i class="fa fa-save"></i>
+          SAVE
+        </button>
+      </div>
+      <div class="col-md-2">
+        <button class="btn  btn-lg btn-block" (click)="clearEmployee()">
+          <i class="fa fa-retweet"></i>
+          CLEAR
+        </button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": {
+    "firstName": "souha55",
+    "lastName": "jarraya",
+    "email": "souha.jarraya22@gmail.com",
+    "password": "aaaaaa",
+    "id": 1
+  },
+  "Employee": [
+    {
+      "id": 3,
+      "firstName": "souha",
+      "lastName": "jarraya",
+      "designation": "",
+      "contact": null,
+      "address": "cité ElGhazella"
+    },
+    {
+      "firstName": "souha",
+      "lastName": "jarraya",
+      "address": "cité ElGhazella",
+      "contact": "sdsds",
+      "id": 4,
+      "designation": "dsdsd"
+    },
+    {
+      "firstName": "aza",
+      "lastName": "",
+      "address": "",
+      "contact": null,
+      "id": 5,
+      "designation": ""
+    }
+  ]
+}

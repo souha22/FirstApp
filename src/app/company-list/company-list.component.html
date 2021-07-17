@@ -1,0 +1,5 @@
+<!-- <div margin="center">
+        <span><input [value]='myBlog'></span>       
+        </div> -->
+<app-company *ngFor="let Company of CompanyList; let i= index" [company]=Company (IncrementEvent)="IncrementSend($event)">
+</app-company>

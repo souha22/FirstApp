@@ -1,0 +1,47 @@
+{
+  "Employee": [
+    {
+      "firstName": "Amel",
+      "lastName": "Argoubi",
+      "address": "21 rue medina",
+      "contact": "25698352",
+      "id": 1,
+      "designation": "Technicienne du validation"
+    },
+    {
+      "firstName": "Ahmed",
+      "lastName": "khalfaoui",
+      "address": "25 ariana",
+      "contact": "52897668",
+      "id": 2,
+      "designation": "ingénieur "
+    },
+    {
+      "firstName": "Bouchra222",
+      "lastName": "mouhamed",
+      "address": "Ben Arous",
+      "contact": "52698741",
+      "id": 3,
+      "designation": "UI Dev"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "email": "boo@far.com",
+      "password": "$2a$10$U5W0VK3gY8UMRP0e93Wy7OGH1BnN8tysWABkaUgjmHnwNivfZUd1G",
+      "id": 2
+    },
+    {
+      "email": "aadem@gamil.com",
+      "password": "$2a$10$PsqdHQARvjW6vibXd9WskOqYMF7LcDi/diXcHPnQM4nKqtaaZe2Qi",
+      "firstName": "Adem",
+      "lastName": "Argoubi",
+      "id": 3
+    }
+  ]
+}

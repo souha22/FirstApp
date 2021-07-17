@@ -1,0 +1,41 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  word-spacing: 10px;
+  
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+hi{
+visibility: hidden;
+}

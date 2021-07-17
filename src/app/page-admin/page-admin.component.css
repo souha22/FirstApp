@@ -1,0 +1,36 @@
+.container{
+    height: 100%;
+    
+    }
+
+.navbar{
+    height: 100px;
+}
+.btn{
+    color: gray;
+}
+.icon{
+    height: 50px;
+    position: absolute;
+    left: 16px;
+
+}
+.info{
+    display: flex;
+    margin-bottom: 26px;
+}
+p{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: gray;
+    position: absolute;
+    right: 16px;
+}
+
+p{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: gray;
+  
+    
+}
